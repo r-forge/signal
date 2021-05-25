@@ -1,7 +1,7 @@
 Package: signal
 Title: Signal Processing
-Version: 0.7-6
-Date: 2015-07-29
+Version: 1.8-0
+Date: 2021-05-25
 Authors@R: c(person("Uwe", "Ligges", role = c("aut", "cre"), email="ligges@statistik.tu-dortmund.de", comment = "new maintainer"),
  person("Tom", "Short", role = "aut", email = "tshort@eprisolutions.com", comment="port to R"),
  person("Paul", "Kienzle", role = "aut", comment="majority of the original sources"),
@@ -23,9 +23,10 @@ Authors@R: c(person("Uwe", "Ligges", role = c("aut", "cre"), email="ligges@stati
  person("Julius O.", "Smith III", role = "ctb"),                   	   
  person("Doug", "Stewart", role = "ctb"),
  person("Andreas", "Weingessel", role = "ctb"))
-Depends: R (>= 2.14.0)
+Depends: R (>= 3.5.0)
 Imports: MASS, graphics, grDevices, stats, utils
 Suggests: pracma
+Enhances: matlab
 Description: A set of signal processing functions originally written for 'Matlab' and 'Octave'.
   Includes filter generation utilities, filtering functions,
   resampling routines, and visualization of filter models. It also
