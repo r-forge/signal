@@ -29,3 +29,5 @@
 xxx-xx-xx
 	* Update to version 1.8.0 to indicate this package is meant to be stable 
 	  (as it was for more than 6 years now)
+	* levinson does no longer warn for p > 2
+	
